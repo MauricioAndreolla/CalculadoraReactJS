@@ -1,0 +1,10 @@
+.display {
+    text-align: right;
+    margin: 10px 0px;
+    overflow: hidden;
+  }
+  
+  .display h1 {
+    font-size: 45px;
+  }
+  

@@ -1,0 +1,29 @@
+button {
+  font-size: 1.2em;
+  padding: 10px;
+  border: none;
+  margin: 1px;
+  border-radius: 2px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.double {
+  grid-column: span 2;
+}
+
+.triple {
+  grid-column: span 3;
+}
+
+.operation {
+  background-color: #F07F23;
+  color: #fff;
+}
+
+.operation:hover {
+  background-color: #e99847;
+}
