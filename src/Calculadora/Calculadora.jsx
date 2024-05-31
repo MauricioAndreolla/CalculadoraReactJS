@@ -17,6 +17,7 @@ function Calculadora() {
   const cleanMemory = () => {
     setValues([0, 0]);
     setCurrent(0);
+    setDisplayValue('0');
   }
 
   const handleOperation = (operationClick) => {
@@ -67,7 +68,7 @@ function Calculadora() {
       <div className='container'>
         <Display value={displayValue} />
         <div className='wrap'>
-          <Button label={"AC"} onClick={cleanDisplay} triple={true}></Button>
+          <Button label={"AC"} onClick={cleanMemory} triple={true}></Button>
           <Button label={"/"} onClick={handleOperation} operation={true}></Button>
           <Button label={"7"} onClick={addDigit}></Button>
           <Button label={"8"} onClick={addDigit}></Button>
