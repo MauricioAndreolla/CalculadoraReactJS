@@ -4,7 +4,7 @@
 
 **Aplicativo criado para praticar desenvolvimento web.**
 
-A ideia é criar um App em que utiliza o armazenamento do navegador para cadastrar entradas e saidas de valores na conta bancária.
+A ideia é criar um App de calculadora com as operações basicas.
 
 ![Interface Inicial](https://github.com/MauricioAndreolla/Dev.FinanceS/assets/44854911/b46ffb21-fc21-4fdf-865b-c0b793c2d18c)
 
